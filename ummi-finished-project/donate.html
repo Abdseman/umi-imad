@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Us</title>
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet" />
+    <!-- font-awesome icons -->
+    <link rel="stylesheet" href="css/font-awesome/css/all.min.css" />
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Donate Css -->
+    <link rel="stylesheet" href="css/donate.css">
+</head>
+
+<body>
+    <!-- Web Header -->
+    <header id="web-header">
+        <div id="web-heading">
+            <div class="container">
+                <div class="row justify-content-between ">
+                    <div class="col-lg-3">
+                        <div id="web-heading-address">
+                            <div class="address d-flex gap-2 align-items-lg-center">
+                                <i class="fa-solid fa fa-envelope"></i>
+                                <div class="address-txt">info@gmail.com</div>
+                            </div>
+                            <div class="address d-flex gap-2 align-items-lg-center">
+                                <i class="fa-solid fa-phone"></i>
+                                <div class="address-txt">+2519041932</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="social-icons d-flex justify-content-between">
+                            <i class="fa-brands fa-facebook "></i>
+                            <i class="fa-brands fa-twitter "></i>
+                            <i class="fa-brands fa-instagram "></i>
+                            <i class="fa-brands fa-telegram "></i>
+                            <i class="fa-solid fa-envelope "></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="#home" class="navbar-brand">
+                    <img src="img/logo2.png" alt="LOGO">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ummi-menu"
+                    aria-controls="ummi-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="ummi-menu">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html">Home</a></li>
+                        <li class="nav-divider"></li>
+                        <li class="nav-item"><a class="nav-link smooth-scroll" href="about.html">About</a></li>
+                        <li class="nav-divider"></li>
+                        <li class="nav-item"><a class="nav-link smooth-scroll" href="ourWork.html">Our Work</a></li>
+                        <li class="nav-divider"></li>
+                        <li class="nav-item"><a class="nav-link smooth-scroll" href="gallery.html">Gallery</a></li>
+                        <li class="nav-divider"></li>
+                        <li class="nav-item"><a class="nav-link smooth-scroll" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="donate-btn-container">
+                    <a href="donate.html" class="btn-general btn-blue">Donate</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- page header -->
+    <section id="page-header">
+        <div class="content-box">
+            <div class="center-page-header">
+                <div id="contact-title">
+                    <h1>Donate Us</h1>
+                </div>
+                <div class="contact-subtitle">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Donate Section -->
+    <section id="donate">
+        <div class="content-box">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div id="donation-container">
+                            <div class="content-title">
+                                <h4 class="header-subtitle"></h4>
+                                <h2>I Want To Support You</h2>
+                                <div class="title-underline"></div>
+                            </div>
+                            <div id="donation-desc">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatem temporibus
+                                    rerum quas perspiciatis nulla minima, soluta ut blanditiis culpa, reiciendis ea enim
+                                    repudiandae mollitia totam ratione eligendi a molestias. Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit. Eos cupiditate vero itaque laboriosam ad!</p>
+                            </div>
+                            <div id="donation-causes">
+                                <h2>Select Cause</h2>
+                                <select name="causes" id="donationCauses">
+                                    <option value="Cause-1">Cause 1</option>
+                                    <option value="Cause-2">Cause 2</option>
+                                    <option value="Cause-3">Cause 3</option>
+                                    <option value="Cause-4">Cause 4</option>
+                                </select>
+                            </div>
+                            <div id="donation-amounts">
+                                <h3>Donate: </h3>
+                                <div id="amount-options">
+                                    <div id="amount-radio-inputs">
+                                        <div class="radio-input">
+                                            <input type="radio" name="donationAmount" id="firstOption"
+                                                class="donationOption">
+                                            <label for="firstOption">10$</label>
+                                        </div>
+                                        <div class="radio-input">
+                                            <input type="radio" name="donationAmount" id="secondOption"
+                                                class="donationOption">
+                                            <label for="secondOption">100$</label>
+                                        </div>
+                                        <div class="radio-input">
+                                            <input type="radio" name="donationAmount" id="thirdOption"
+                                                class="donationOption">
+                                            <label for="thirdOption">500$</label>
+                                        </div>
+                                        <input type="number" name="donationAmount" id="otherAmountOption" class=""
+                                            placeholder="Other Amount">
+                                    </div>
+                                    <div id="amount-display-options" class="display-box"></div>
+                                </div>
+                            </div>
+                            <div id="donation-payment">
+                                <div id="payment-method">
+                                    <h2>Payment Method: </h2>
+                                    <h4>Bank Transfer</h4>
+                                </div>
+                                <div id="bank-accounts">
+                                    <h3>Select Bank: </h3>
+                                    <select name="paymentMethods" id="paymentMethods">
+                                        <option value="CBE">CBE</option>
+                                        <option value="AWASH">AWASH</option>
+                                        <option value="DASHEN">DASHEN</option>
+                                        <option value="ABYSSINYA">ABUSSINNYA</option>
+                                    </select>
+                                </div>
+                                <div id="account-display-box" class="display-box"></div>
+                            </div>
+                            <div id="donor-details">
+                                <h2>Donor Details:</h2>
+                                <form action="#" id="donor-details-form">
+                                    <input type="text" name="full-name" id="dononr-full-name" placeholder="Full Name"
+                                        required>
+                                    <input type="email" name="email" id="dononr-email" placeholder="Email">
+                                    <input type="tel" name="phone no." id="dononr-phoneNo" placeholder="Phone Number"
+                                        required>
+                                    <input type="text" name="address" id="dononr-address" placeholder="Address">
+                                    <div id="confirmBtn">
+                                        <input type="submit" role="button" class="btn btn-blue btn-lg" value="Confirm">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="donation-text">
+                            <div class="content-title">
+                                <h2>A Subtitle</h2>
+                            </div>
+                            <div id="donation-text-desc">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus harum ab
+                                    dicta voluptatem. Eos qui blanditiis doloribus voluptatibus omnis corrupti veniam
+                                    dignissimos veritatis, alias itaque asperiores rerum eligendi aspernatur
+                                    consequuntur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem eum,
+                                    perspiciatis accusamus consectetur ab assumenda iure asperiores officia ducimus
+                                    consequatur quod ullam temporibus natus iste eius quo quasi nihil corrupti. Lorem
+                                    ipsum dolor sit, amet consectetur adipisicing elit. Fuga deleniti tempora error
+                                    libero nostrum et totam eius nam eaque ex, magnam laudantium nemo voluptatum
+                                    similique vel accusamus itaque? Corrupti, voluptate?</p>
+                            </div>
+                            <div id="thanks">
+                                <h1>Thanks For Supporting Us</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- confirmation popup -->
+    <div id="popup-box">
+        <div class="popup-content">
+            <div class="popup-header">
+                <div class="popup-title">
+                <h2>Thanks For Supporting Us</h2></div>
+                <div class="popup-close-icon close">
+                    <i class="fa-sharp fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="popup-desc">
+                <h5>Please finish your donation in your near bank!</h5>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <section id="footer">
+        <div class="content-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div id="footer-company-content">
+                            <a href="#" id="footer-name-logo">
+                                <div id="footer-company-name">
+                                    <h1>UMI NGO</h1>
+                                </div>
+                                <div id="footer-logo">
+                                    <img src="img/logo2.png" alt="" srcset="">
+                                </div>
+                            </a>
+                            <div id="footer-company-desc">
+                                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic provident dolorum
+                                    inventore blanditiis, in ea!</p>
+                            </div>
+                            <div id="footer-icons">
+                                <div class="social-icons d-flex justify-content-between">
+                                    <i class="fa-brands fa-facebook "></i>
+                                    <i class="fa-brands fa-twitter "></i>
+                                    <i class="fa-brands fa-instagram "></i>
+                                    <i class="fa-brands fa-telegram "></i>
+                                    <i class="fa-solid fa-envelope "></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-content-padding">
+                            <div id="footer-useful-links">
+                                <div class="footer-content-title">
+                                    <h2>Useful links</h2>
+                                </div>
+                                <div id="useful-links-list">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="ourWork.html">Our Work</a></li>
+                                        <li><a href="donate.html">Donate</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-padding-content">
+                            <div id="footer-address" class="pag-parallax">
+                                <div class="footer-content-title">
+                                    <h2>Addresses</h2>
+                                </div>
+                                <div id="footer-address-list">
+                                    <ul>
+                                        <li>
+                                            <p class="footer-address-text">
+                                                Michael I. Days 3756 <br>
+                                                Preston Street Wichita, KS 67213 <br>
+                                                -Ethiopia
+                                            </p>
+                                        </li>
+                                        <li>+2519384922</li>
+                                        <li>info@gmial.com</li>
+                                        <li>www.umingo.com</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+
+                        <div id="footer-gallery">
+                            <div class="footer-content-title">
+                                <h2>Photo Gallery</h2>
+                            </div>
+                            <div id="footer-imgs">
+                                <div class="footer-img-row">
+                                    <div class="footer-img">
+                                        <img src="img/events/event1.jpg" alt="">
+                                    </div>
+                                    <div class="footer-img">
+                                        <img src="img/events/event2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="footer-img-row">
+                                    <div class="footer-img">
+                                        <img src="img/events/event3.jpg" alt="">
+                                    </div>
+                                    <div class="footer-img">
+                                        <img src="img/events/event4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="footer-copyright">
+                <div id="footer-copyright-text">
+                    <p>CopyRight 2022 &copy; All Rights Resevred</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script>
+        let radioBtn = document.querySelectorAll('.donationOption');
+        let displayBox = document.querySelector('#amount-display-options');
+        for (let i = 0; i < radioBtn.length; i++) {
+            const element = radioBtn[i];
+            element.addEventListener('click', (e)=>{
+                let radioLabel = element.nextElementSibling.textContent;
+                displayBox.innerText = radioLabel;
+            })
+        }
+
+        let usersAmountInput = document.querySelector('#otherAmountOption');
+        usersAmountInput.addEventListener('keyup', (e)=>{
+            displayBox.innerText = usersAmountInput.value;
+        })
+
+        let paymentMethods = document.querySelector('#paymentMethods');
+        paymentMethods.addEventListener('change', (e)=>{
+            let opt = paymentMethods.options[paymentMethods.selectedIndex];
+            let displayBox = document.querySelector('#account-display-box');
+            displayBox.innerText = opt.innerText;
+        })
+
+        let myForm = document.querySelector('#donor-details-form');
+        let popupBox = document.querySelector('#popup-box');
+        myForm.addEventListener('submit', (e)=>{
+            e.preventDefault();
+            popupBox.style.display = "flex";
+        })
+
+        let closeIcon = document.querySelector('.close');
+        closeIcon.addEventListener('click', (e)=>{
+            popupBox.style.display = "none";
+        })
+    </script>
+</body>
+
+</html>

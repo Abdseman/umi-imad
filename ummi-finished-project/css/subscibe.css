@@ -1,0 +1,198 @@
+@import url("css/style.css");
+/* Plans */
+.plan-box{
+    background-color: var(--clearWhit);
+    box-shadow: 0px 5px 24px 6px rgb(0 0 0 / 6%);
+    color: var(--black);
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 60px 20px 60px;
+    border-bottom: 3px solid var(--primary);
+}
+.plan-desc{
+    width: 250px;
+    text-align: center;
+}
+.plan-title h4{
+    color: var(--primary);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.plan-btn .btn-white{
+    background-color: var(--primary);
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+.plan-btn .btn-white:hover{
+    background-color: var(--clearWhit);
+    color: var(--primary);
+    border-color: var(--primary);
+}
+/* Help txt Section */
+#help-txt{
+    background-color: var(--black);
+    color: #fff;
+    margin-bottom: 5em;
+}
+#help-txt-desc{
+    text-align: center;
+}
+#help-txt-desc p{
+    color: var(--clearWhit);
+}
+/*  Donation Pop Up Box */
+#popup-box{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    display: none;
+}
+.popup-box-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid var(--primary);
+    background-color: var(--clearWhit);
+    box-shadow: 0px 5px 24px 6px rgb(0 0 0 / 6%);
+    border-radius: 10px;
+    padding: 1em 0;
+    width: 600px;
+    height: 600px;
+}
+.popup-firstContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.popup-header{
+    border-bottom: 3px solid var(--primary);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5em 1.5em;
+}
+.popup-header h2{
+    color: var(--primary);
+    font-weight: 700;
+}
+.popup-close-icon i{
+    font-size: 1.5em;
+    color: var(--primary);
+    font-weight: 700;
+}
+.popup-desc{
+    width: 80%;
+    padding: .5em 0;
+}
+.popup-desc p{
+    color: var(--black);
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.popup-title{
+    padding: .5em;
+}
+.popup-title h1{
+    font-weight: 700;
+    color: var(--primary);
+    font-size: 55px;
+}
+.donation-prices{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.d-price{
+    padding: 0px 20px;
+    background-color: var(--primary);
+    color: #fff;
+    height: fit-content;
+}
+.d-price-input input{
+    width: 130px;
+    text-align: center;
+    background-color: var(--primary);
+    color: #fff;
+    height: fit-content;
+    border: none;
+    outline: none;
+}
+.d-price-input input::placeholder{
+    color: #fff;
+}
+#amount-display-box{
+    margin: 1em;
+    width: 300px;
+    height: 80px;
+    padding: .5em 1em;
+    text-align: center;
+    color: var(--primary);
+    font-weight: 600;
+    border: 2px solid var(--primary);
+    box-shadow: 0px 5px 24px 6px rgb(0 0 0 / 6%);
+    overflow-x: hidden;
+}
+.popup-donor-inputs{
+    margin: 1em;
+}
+#popup-donor-input input{
+    display: block;
+    margin-bottom: .5em;
+    width: 300px;
+    height: fit-content;
+    /* border: 2px solid var(--primary); */
+    padding: 3px .5em;
+    color: var(--primary);
+}
+#popup-donor-input input::placeholder{
+    color: var(--primary);
+}
+#popup-proceed{
+    text-align: right;
+    margin: .5em 0;
+}
+#popup-proceed .btn-blue{
+    border-radius: 0;
+    color: var(--clearWhit);
+}
+#popup-proceed .btn-blue:hover{
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.popup-nextPage{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    display: none;
+}
+.popup-nextPage h2{
+    color: var(--primary);
+    font-weight: 700;
+}
+.popup-nextPage-btn{
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+.popup-nextPage-btn .btn-blue:hover{
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}

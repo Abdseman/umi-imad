@@ -1,0 +1,69 @@
+@import url('css/style.css');
+/* ============================================================
+                            About css
+===============================================================*/
+/* Who We Are */
+#who-we-are-content .content-title h2{
+    text-align: left;
+    margin-bottom: var(--gapSm);
+}
+#who-we-are-content .header-subtitle{
+    text-align: left;
+}
+#who-we-are-content .title-underline{
+    margin: var(--gap) 0;
+}
+.aboutPage-content-desc{
+    width: 600px;
+    text-align: justify;
+}
+/* Our History */
+.history-box{
+    display: flex;
+    gap: var(--gap);
+    position: relative;
+}
+.history-single-icon{
+    border: 5px solid #e1e1e1;
+    padding: var(--gap);
+    border-radius: 50%;
+}
+.history-single-icon i, .history-single-icon svg{
+    font-size: 1.5em;
+    color: var(--primary);
+}
+.history-i-container::after{
+    content: '';
+    display: block;
+    height: 100px;
+    width: 1.5px;
+    margin: 0 auto;
+    background-color: #e1e1e1;
+    position: relative;
+    /* top: -1px; */
+}
+.history-lastChild::after{
+    display: none;
+}
+/* .history-move{
+    top: -1px;
+}
+.history-moved{
+    top: -2px;
+} */
+.history-desc{
+    width: 250px;
+}
+.history-img{
+    width: 80%;
+    margin-bottom: var(--gap);
+}
+/* shelter Saves Lives */
+#shelter{
+    background-color: var(--black);
+}
+.shelter-text h1{
+    color: var(--clearWhit);
+    font-size: 2.4em;
+    text-align: center;
+}
