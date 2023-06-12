@@ -1,0 +1,197 @@
+@import url("css/style.css");
+/* ============================================================
+                            Pages Common styles
+===============================================================*/
+#donation-container{
+    background-color: #fff;
+    box-shadow: 0px 5px 24px 6px rgb(0 0 0 / 6%);
+    padding: 2em 1.5em 5em;
+    position: relative;
+}
+#donation-container .content-title h2{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: var(--primary);
+}
+#donation-container .content-title .title-underline{
+    margin: 0;
+}
+#donation-desc{
+    margin: 2em 0;
+    text-align: justify;
+    width: 450px;
+    color: var(--black);
+    font-weight: 500;
+}
+#donation-causes h2{
+    color: var(--primary);
+}
+#donationCauses{
+    width: 450px;
+    padding: .5em;
+    font-weight: 600;
+}
+#donation-amounts{
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-between;
+}
+#donation-amounts h3{
+    color: var(--primary);
+}
+#amount-options {
+    display: flex;
+}
+.display-box{
+    width: 250px;
+    height: 80px;
+    border: 2px dotted;
+    padding: .5em;
+    border: 3px solid var(--primary);
+    box-shadow: 0px 5px 24px 6px rgb(0 0 0 / 6%);
+    color: var(--primary);
+    font-weight: 600;
+    overflow-x: hidden;
+}
+#amount-radio-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+.radio-input{
+    width: fit-content;
+}
+#otherAmountOption{
+    width: 130px;
+    padding: 1px;
+    height: fit-content;
+    text-align: center;
+    background-color: var(--primary);
+    color: var(--clearWhit);
+    border: none;
+}
+#otherAmountOption::placeholder{
+    color: var(--clearWhit);
+}
+#donation-payment{
+    margin: 1.5em 0;
+}
+#payment-method{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+#payment-method h2{
+    color: var(--primary);
+    font-weight: 600;
+}
+#payment-method h4{
+    color: var(--primary);
+    font-weight: 700;
+}
+#bank-accounts{
+    display: flex;
+    gap: 1.5em;
+    width: 450px;
+}
+#bank-accounts h3{
+    color: var(--primary);
+}
+#paymentMethods{
+    height: fit-content;
+    flex: 1 0 50%;
+    padding: .5em;
+}
+#account-display-box{
+    margin: 1em auto;
+    height: 50px;
+    width: 300px;
+}
+#donor-details h2{
+    color: var(--primary);
+}
+#donor-details-form{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    padding: 1em 2em;
+}
+#donor-details-form input{
+    width: calc(450px - 2em);
+    padding: .1em 1em;
+    color: var(--primary);
+    height: fit-content;
+    font-weight: 600;
+}
+#donor-details-form input::placeholder{
+    color: var(--primary);
+}
+#confirmBtn{
+    position: absolute;
+    bottom: 1px;
+    right: 1em;
+    margin: 1em;
+}
+#confirmBtn input{
+    background-color: var(--primary);
+    color: #fff;
+    border-radius: 0;
+    width: fit-content;
+}
+#donation-text .content-title h2{
+    text-align: left;
+    margin: 1em 0;
+}
+#donation-text-desc{
+    font-weight: 500;
+    color: var(--black);
+    text-align: justify;
+    width: 600px;
+}
+#thanks{
+    margin: 6em 0 0;
+    font-weight: 700;
+}
+#thanks h1{
+    font-weight: 700;
+}
+#popup-box{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    display: none;
+}
+.popup-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid var(--primary);
+    background-color: var(--clearWhit);
+    box-shadow: 0px 5px 24px 6px rgb(0 0 0 / 6%);
+    border-radius: 10px;
+    padding: 1em 0;
+    width: 600px;
+    height: 300px;
+}
+.popup-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    margin-bottom: 4em;
+}
+.popup-header h2{
+    text-align: center;
+}
+.popup-title{
+    flex: 1 0 50%;
+}

@@ -1,0 +1,79 @@
+@import url("css/style.css");
+/* ============================================================
+                            Pages Common styles
+===============================================================*/
+.no-gap {
+  margin: 0;
+  padding-bottom: 1em;
+}
+/* stats */
+#stats-cover {
+  background-image: url("../img/bg-stats.jpg");
+}
+#stats .content-box {
+  background: rgba(0, 0, 0, 0.8);
+}
+#stats .content-title h2 {
+  color: var(--clearWhit);
+}
+.stats-item {
+  display: flex;
+  gap: var(--gap);
+}
+.stats-item-info span,
+.stats-item-info p,
+.stats-item-info div {
+  color: var(--clearWhit);
+  font-size: 1.5em;
+}
+.stats-item-info span {
+  font-size: 2em;
+}
+#stats i {
+  color: var(--primary);
+  font-size: 3.5em;
+}
+#stats svg {
+  color: var(--primary);
+  font-size: 3.5em;
+}
+/* Our Main Issue */
+.issue-txt {
+  border: 3px solid #e1e1e1;
+  padding: 5px 10px;
+  text-align: center;
+}
+/* services */
+.service-box {
+  border: 3px solid var(--black);
+  padding: 1em;
+  text-align: center;
+  margin: 0.5em;
+}
+/* call now */
+#call-now {
+  webkit-box-shadow: 0px -5px 15px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -5px 15px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -5px 15px 1px rgba(0, 0, 0, 0.75);
+}
+.call-content {
+  background-color: var(--black);
+  color: #fff;
+  padding: 1em 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.call-txt {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+.call-txt h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 45px;
+}
+.call-btn a {
+  text-decoration: underline;
+}

@@ -1,0 +1,79 @@
+@import url('css/style.css');
+/* ============================================================
+                            Pages Common styles
+===============================================================*/
+/* .thumbnails slider */
+.splide__slide {
+    opacity: 0.6;
+  }
+
+  .splide__slide.is-active {
+    opacity: 1;
+  }
+  .splide__slide{
+    height: 350px;
+  }
+  .splide__slide img {
+    width: 100%;
+    height: 100%;
+  }
+
+.thumbnails {
+    display: flex;
+    margin: 1rem auto 0;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .thumbnail {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    list-style: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+  }
+
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .thumbnail {
+    opacity: 0.3;
+  }
+
+  .thumbnail.is-active {
+    opacity: 1;
+  }
+  .splide__arrows, .splide__arrow{
+    display: none;
+  }
+  .gallery-normalSlide-img{
+    height: 450px;
+  }
+  .gallery-normalSlide-img img{
+    height: 100%;
+  }
+#gallery-hover-carousel{
+    padding: 0 1em;
+}
+.gallery-right-side-normalSlider{
+    padding: 0 1em;
+}
+/* Image Gallery */
+#image-gallery [class*=col-]{
+  padding: 0;
+}
+.gallery-img-wrapper{
+  height: 100%;
+  overflow: hidden;
+}
+.gallery-img-wrapper img{
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+.gallery-img-wrapper img:hover {
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
